@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .image-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        .image-card img {
+            width: 100%;
+            height: 200px; /* Altura fija para las imágenes */
+            object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+            display: block;
+        }
+        .image-info {
+            padding: 15px;
+        }
+        .image-info h3 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .image-info p {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Galería de Imágenes</h1>
+
+    <div class="gallery-container">
+        <div class="image-card">
+            <img src="image1.png" alt="Microsoft Excel - Ultimate Dividend Portfolio Tracker Spreadsheet">
+            <div class="image-info">
+                <h3>Microsoft Excel - Hoja de Cálculo</h3>
+                <p>Esta imagen muestra una hoja de cálculo de Microsoft Excel, posiblemente un "Ultimate Dividend Portfolio Tracker Spreadsheet".</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image2.png" alt="Panel IPS vs TN vs VA">
+            <div class="image-info">
+                <h3>Monitor con Datos en Columnas</h3>
+                <p>Una pantalla mostrando datos organizados en columnas con diferentes colores, posiblemente relacionado con una comparación de paneles (IPS vs TN vs VA).</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image3.png" alt="Líneas verdes en la tarjeta gráfica, Acer X203HB">
+            <div class="image-info">
+                <h3>Problema de Tarjeta Gráfica - Líneas Verdes</h3>
+                <p>Una pantalla Acer X203HB con un fondo azul y líneas verdes, sugiriendo un posible problema con la tarjeta gráfica.</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image4.png" alt="Microsoft Excel - Ultimate Dividend Portfolio Tracker Spreadsheet">
+            <div class="image-info">
+                <h3>Microsoft Excel - Gestión de Dividendos</h3>
+                <p>Otra vista de una hoja de cálculo de Microsoft Excel, probablemente utilizada para el seguimiento de un portafolio de dividendos.</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image5.png" alt="Acer X243HQ - Monitor panorámico de 16.5 pulgadas">
+            <div class="image-info">
+                <h3>Documento en Pantalla - Acer Monitor</h3>
+                <p>Un monitor Acer (posiblemente un X243HQ de 16.5 pulgadas) mostrando un documento de texto, posiblemente un contrato o informe.</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image6.png" alt="Líneas verdes en la tarjeta gráfica, Acer X203HB">
+            <div class="image-info">
+                <h3>Monitor con Fallo Gráfico - Acer X203HB</h3>
+                <p>Similar a la imagen 3, este monitor Acer X203HB presenta un fondo azul y líneas verdes, indicando un posible fallo de hardware.</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image7.png" alt="Panel IPS vs TN vs VA">
+            <div class="image-info">
+                <h3>Datos con Codificación de Colores</h3>
+                <p>Una hoja de cálculo con datos y columnas resaltadas con diferentes colores, quizás para análisis o comparación de tipos de panel (IPS vs TN vs VA).</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image8.png" alt="Código de semáforo de Terry">
+            <div class="image-info">
+                <h3>Lista de Nombres y Números</h3>
+                <p>Una hoja de cálculo de Excel mostrando una lista de nombres y números, que podría estar relacionada con un "código de semáforo de Terry".</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image9.png" alt="Monitor Acer X233H sin señal">
+            <div class="image-info">
+                <h3>Pantalla con Fondo Verde y Lista</h3>
+                <p>Un monitor Acer X233H mostrando una lista de elementos con un gran bloque verde a la derecha, lo que podría indicar una falta de señal o un modo de prueba.</p>
+            </div>
+        </div>
+
+        <div class="image-card">
+            <img src="image10.png" alt="CAD Rozkrój">
+            <div class="image-info">
+                <h3>Interfaz con Datos de Entrada/Salida</h3>
+                <p>Una aplicación con una interfaz que muestra entradas de tiempo y estados ("De entrada"), posiblemente un sistema de registro o software CAD ("Rozkrój").</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
